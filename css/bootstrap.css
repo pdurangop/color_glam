@@ -34,6 +34,10 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+.logo{
+  max-width: 100%;
+  height: auto;
+}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -4277,13 +4281,21 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
 }
 .navbar-brand > img {
-  display: block;
+  /*display: block;*/
+  width: 70px;
+  margin-top: -17px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -4302,6 +4314,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  z-index:3;
 }
 .navbar-toggle:focus {
   outline: 0;
