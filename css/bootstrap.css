@@ -44,7 +44,10 @@ video {
 #how-works{
   background-color: purple;
   max-width: 100%;
-  height: 825px;
+  height: auto;
+  text-align: center;
+  color: white;
+
 }
 audio:not([controls]) {
   display: none;
