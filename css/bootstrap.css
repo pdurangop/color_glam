@@ -47,8 +47,8 @@ video {
   height: auto;
   text-align: center;
   color: white;
-
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
