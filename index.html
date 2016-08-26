@@ -13,7 +13,7 @@
 
 <body>
   <!--MENU ESTATICO-->
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
@@ -25,7 +25,7 @@
 
       </div>
       <a class="navbar-brand" href="#">
-       <img alt="LOGO" src="images/logo-02.png" >
+       <img alt="LOGO" src="images/logo-02.png">
       </a>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -84,28 +84,27 @@
       <h1 class="title">COMO FUNCIONA</h1>
       <div class="container" >
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <img class="img-responsive" src="images/logo-02.png">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h1 class="title">PASO 1</h1>
+            <img class="img-responsive patrocinadores" src="images/paso1.png">
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <img class="img-responsive" src="images/logo-02.png">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h1 class="title">PASO 2</h1>
+            <img class="img-responsive patrocinadores" src="images/paso2.png">
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <img class="img-responsive" src="images/logo-02.png">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <h1 class="title">PASO 3</h1>
+              <img class="img-responsive patrocinadores" src="images/paso3.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <h1 class="title">PASO 4</h1>
+              <img class="img-responsive patrocinadores" src="images/paso4.png">
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="container" >
-        <div class="row">
-          <img class="img-responsive" src="images/logo-02.png">
-          <img class="img-responsive" src="images/logo-02.png">
-          <img class="img-responsive" src="images/logo-02.png">
         </div>
       </div>
     </div>
-
-       <!--<img class="img-responsive" alt="LOGO" src="images/como_funciona.jpg" >-->
-
   </div>
 
   <div class="container-fluid">
@@ -126,7 +125,7 @@
         <p>
           <H6 class="ser-artis" >Animate a ser parte de este <br> bonito proyecto<br></H6>
         </p>
-        <button class="btn btn-primary">RESPUESTAS</button>
+        <button class="btn btn-primary boton">RESPUESTAS</button>
       </div>
       <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
         <img class="img-responsive" src="images/marco-der.png">
@@ -138,15 +137,51 @@
   </div>
 
   <div class="container-fluid">
-    <a class="img-responsive" href="#">
-       <img class="img-responsive" alt="LOGO" src="images/patrocinadores.jpg" >
-      </a>
+    <h1 class="title">PATROCINADORES</h1>
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <a href="https://cnd.com/">
+        <img class="img-responsive patrocinadores" alt="CDN" src="images/cnd.jpg" >
+        </a>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <a href="http://www.essence.eu/co/inicio/">
+        <img class="img-responsive patrocinadores" alt="ESSENCE" src="images/essence.jpg" >
+        </a>
+      </div>
+    </div>
   </div>
 
   <div class="container-fluid">
-    <a class="img-responsive" href="#">
-       <img class="img-responsive" alt="LOGO" src="images/contacto.jpg" >
-      </a>
+
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="contacto">
+          <h1 class="title-contacto">CONTACTO</h1>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Mail">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Mensaje">
+            </div>
+            <button type="submit" class="btn btn-default">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="redes-sociales">
+          <div class="row">
+            <a href=""><img class="patrocinadores" src="images/redes1.png"></a>
+            <a href=""><img class="patrocinadores" src="images/redes2.png"></a>
+            <a href=""><img class="patrocinadores" src="images/redes3.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
