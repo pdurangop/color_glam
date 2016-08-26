@@ -1,0 +1,91 @@
+
+@media (max-width: 320px) {
+  .title {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 321px) and (max-width: 767px) {
+  .title {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .title {
+    font-size: 80px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 150px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .ser-artis {
+    font-size: 10px;
+  }
+}
+@media (min-width: 321px) and (max-width: 767px) {
+  .ser-artis {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .ser-artis {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ser-artis {
+    font-size: 75px;
+  }
+}
+
+#servicios{
+  text-align: center;
+}
+.contacto{
+  text-align: center;
+}
+@media (max-width: 320px) {
+  .title-contacto {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+@media (min-width: 321px) and (max-width: 767px) {
+  .title-contacto {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .title-contacto {
+    font-size: 60px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title-contacto {
+    font-size: 100px;
+    text-align: center;
+  }
+}
+.patrocinadores{
+  margin: auto;
+}
+.boton{
+   font-size: 3vw;
+}
+.redes-sociales{
+  display: inline;
+  margin: auto;
+}

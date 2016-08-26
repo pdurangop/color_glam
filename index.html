@@ -5,14 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Color Glam</title>
+  <title>ColorGlam</title>
 
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrapindex.css">
 </head>
 
 <body>
   <!--MENU ESTATICO-->
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
@@ -24,17 +25,17 @@
 
       </div>
       <a class="navbar-brand" href="#">
-       <img alt="LOGO" src="images/logo-02.png" >
+       <img alt="LOGO" src="images/logo-02.png">
       </a>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
 
         <ul class="nav navbar-nav navbar-left">
-          <li><a href="#">NOSOTROS</a></li>
+          <li class="padding-right"><a href="nosotros.html">NOSOTROS</a></li>
           <li><a href="#">SERVICIOS</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">INSPIRACIÓN</a></li>
+          <li class="padding-right"><a href="#">INSPIRACIÓN</a></li>
           <li><a href="#">CONTACTO</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -52,17 +53,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="images/banner-01.png" alt="...">
+        <img src="images/banner-01.png" alt="banner 1">
+      </div>
+      <div class="item">
+        <img src="images/banner-02.jpg" alt="banner 2">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="images/banner-02.jpg" alt="...">
-        <div class="carousel-caption">
-        </div>
-      </div>
-      <div class="item">
-        <img src="images/logo.jpg" alt="...">
+        <img src="images/banner-03.jpg" alt="banner 3">
         <div class="carousel-caption">
         </div>
       </div>
@@ -79,6 +78,111 @@
     </a>
   </div>
 
+  <!-- seccion de como funciona -->
+  <div class="container-fluid" id="how-works">
+    <div class="row" >
+      <h1 class="title">COMO FUNCIONA</h1>
+      <div class="container" >
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h1 class="title">PASO 1</h1>
+            <img class="img-responsive patrocinadores" src="images/paso1.png">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h1 class="title">PASO 2</h1>
+            <img class="img-responsive patrocinadores" src="images/paso2.png">
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <h1 class="title">PASO 3</h1>
+              <img class="img-responsive patrocinadores" src="images/paso3.png">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <h1 class="title">PASO 4</h1>
+              <img class="img-responsive patrocinadores" src="images/paso4.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <img class="img-responsive" src="images/marco-izq.png">
+      </div>
+      <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+        <img class="img-responsive" src="images/cont.png">
+      </div>
+      <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+        <p>
+          <h4 class="ser-artis">
+            QUIERES SER UNA <br>ARTISTA DE BELLEZA <br>
+            O UN INVERSIONISTA<br>
+          </h4>
+        </p>
+        <p>
+          <H6 class="ser-artis" >Animate a ser parte de este <br> bonito proyecto<br></H6>
+        </p>
+        <button class="btn btn-primary boton">RESPUESTAS</button>
+      </div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <img class="img-responsive" src="images/marco-der.png">
+      </div>
+    </div>
+    <!--<a class="img-responsive" href="#">
+       <img class="img-responsive" alt="LOGO" src="images/ser_artista.jpg" >
+      </a>-->
+  </div>
+
+  <div class="container-fluid">
+    <h1 class="title">PATROCINADORES</h1>
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <a href="https://cnd.com/">
+        <img class="img-responsive patrocinadores" alt="CDN" src="images/cnd.jpg" >
+        </a>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <a href="http://www.essence.eu/co/inicio/">
+        <img class="img-responsive patrocinadores" alt="ESSENCE" src="images/essence.jpg" >
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="contacto">
+          <h1 class="title-contacto">CONTACTO</h1>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Mail">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Mensaje">
+            </div>
+            <button type="submit" class="btn btn-default">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="redes-sociales">
+          <div class="row">
+            <a href=""><img class="patrocinadores" src="images/redes1.png"></a>
+            <a href=""><img class="patrocinadores" src="images/redes2.png"></a>
+            <a href=""><img class="patrocinadores" src="images/redes3.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
