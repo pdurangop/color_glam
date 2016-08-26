@@ -1,0 +1,38 @@
+
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+	display: block;
+	max-width:auto;
+	height: auto;
+}
+
+.button{
+	background-color:white;
+	width: 200px;
+	color:black;
+	display:block;
+	font-size:15px;
+	margin:0px; 
+	padding: 10px 0px;
+	text-align:center;
+
+	/*text-decoration:;*/
+	box-shadow: 1px 1px 1px 1px grey;
+
+}
+a:focus, a:hover {
+	color: #080808;
+	text-decoration: none;
+}
+.button:hover{
+	box-shadow: 0px 0px 0px 0px;
+	padding-top:7px ;
+}
+h1{
+	padding: 30px;
+	color:purple;
+}
+
+.text{
+	text-align:left;
+	margin:0px 0px 0px 80px;
+}
