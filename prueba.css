@@ -1,0 +1,63 @@
+.fundadora{
+	background-color:#FFFACD;
+	color:violet;
+	margin:auto;
+	padding:100px;
+}
+.titulo{
+	color:red;
+}
+.menu-nav {
+	margin-bottom: 0;
+}
+
+.reserva{
+	background-color:#FFFACD;
+	margin:auto;
+	padding:50px;
+}
+.button{
+	background-color:#FFFACD;
+	color:black;
+	display:inline-block;
+	font-size:20px;
+	margin:auto; 
+	padding: 10px 0px;
+	text-align:center;
+	width:300px;
+	text-decoration:none;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+html, 
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.slider {
+	width: 75%;
+	margin: 100px auto;
+	margin-top:0 ;
+}
+
+.slick-slide {
+	margin: 0px 20px;
+}
+
+.slick-slide img {
+	width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+
+.fila {
+	margin: 0;
+}
